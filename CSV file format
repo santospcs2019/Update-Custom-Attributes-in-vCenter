@@ -1,0 +1,3 @@
+# First row contains csv attributes name and second ow contains their values
+Name,BusinessGroup,VMOwner,Application,VMJustification,VRMOwner
+vmName,bgName,owner,application,justification,owner email
