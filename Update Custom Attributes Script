@@ -1,8 +1,8 @@
-# If CSV contains the VM's fr0m multiple vCenters you can specify all the corresponding vCenters in the script
+# If CSV contains the VM's from multiple vCenters you can specify all the corresponding vCenters in the script
 $vCenterName = ''
 # Set PowerCLI configuration using below command in case of certificate error
 Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
-# Connect to vCenter with credentials having appropriate credentials
+# Connect to vCenter with credentials having appropriate permissions
 connect-viserver $vCenterName
 # Specify the complete CSV file path
 $FileList = ""
